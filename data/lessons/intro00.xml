@@ -1,112 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Lesson 00 - In-class Only Introduction
--->
-<lesson status="v2">
-    <!-- Activity metadata ... override anything from the course or organizer -->
-    
-    <!-- The meat of the presentation -->
+<lesson status="1.0">
     <slide title="Your Instructor" layout="normal">
-            <h2>Jim Parry</h2>
-            <ul>
-                <li>Day job: BCIT instructor; ACIT2420 and ACIT4850 too</li>
-                <li>Off campus: webapp developer, for fun and sometimes profit</li>
-                <li>Interests: open source cat herder (Project Lead, CodeIgniter)</li>
-                <li>Contact: DTC-617, email instead</li>
-                <li>Email: jim_parry@bcit.ca</li>
-            </ul>
-     </slide>
-
-    <slide title="Course Outcomes" layout="normal">
-        <p>See the "course goals" section in the course outline.</p>
-        <ol>
-            <li>Build a robust RESTful webapp backend, to complement your option projects</li>
-            <li>Demonstrate proper usage of distributed system glue</li>
-            <li>Demonstrate proper team collaboration for webapp development</li>
-        </ol>
-    </slide>
-
-    <slide title="Deviating from Normal ..." layout="normal">
-        <p>A few things are different in this course, compared to what
-            you might be used to...</p>
+        <h2>Jim Parry</h2>
         <ul>
-            <li>Flipped Learning</li>
-            <li>Flipped LMS</li>
-            <li>"Authentic" assessment</li>
-            <li>Rigorous workflow</li>
+            <li>Day job: BCIT instructor (retired); ACIT3890 and COMP4711(DGPT)</li>
+            <li>Off campus: open source cat herder (Project Lead, CodeIgniter)</li>
+            <li>Contact: DTC-528, email instead</li>
+            <li>Email: jparry1@bcit.ca</li>
         </ul>
     </slide>
-  <slide title="Our Course Hub" layout="normal">
+
+    <slide title="Course Goals" layout="normal">
+        <p>See the "course learning outcomes" section in the course outline.</p>
+        <ul>
+            <li>contribution to a controlled OS project</li>
+            <li>setup &amp; contribution to an experimental OS project</li>
+            <li>contribution to a live external OS project</li>
+        </ul>
+    </slide>
+
+   <slide title="Our Course Hub" layout="normal">
         <h2>
-            <a href="https://comp4711.jlparry.com" target="_blank">COMP4711 
+            <a href="https://acit3890.jlparry.com" target="_blank">ACIT3890 
                 Course Hub</a>
         </h2>
         <ul>
             <li>
                 <a href="{outline}" target="_blank">
                     Course outline</a> on BCIT site</li>
-            <li>Organizer, lessons, tutorials, and lab/assignment writeups all on our course hub.</li>
-            <li>Material can be viewed as slideshow or webpage, and maybe downloaded as PDF.</li>
-            <li>Code examples or starter projects all shared as 
-                <a href="https://github.com/jedi-academy" target="_blank">Github 
-                    repositories</a>, to be forked/downloaded.</li>
-            <li>Labs/walkthroughs done individually or in pairs, on github(?!); 
-                readme (with a link to your repo) is all that is submitted to a 
-                D2L dropbox, with a deep link to the dropbox on the course hub.</li>
-            <li>Assignments done in teams, on github(?!); readme (with links) 
-                is submitted to D2L dropbox</li>
-            <li>Labs start: this week (after lecture)</li>
+            <li>Organizer, lessons and lab/assignment writeups all on our course hub.</li>
+            <li>Material can be viewed as slideshow or webpage.</li>
+            <li>Labs ... some individual, some groups</li>
+            <li>Assignments ... #1 and #3 individual, #2 team, all on Github</li>
         </ul>
-    </slide>
-
-    <slide title="GIT Repositories" layout="normal">
-        <p>Throughout this lab, and indeed this course, frequent mention is made of
-            "github repositories". The course hub, and *all* of the starter and example projects
-            are stored on github.com.</p>
-        <p>
-            <b>This is an off-campus resource, and the BCIT privacy policies
-                apply.</b>
-        </p>
-        <p>Your work is to be completed in a public GIT repository,
-            but you have choices for this:
-            <ul>
-                <li>Use github.com voluntarily, possibly with an alias account name
-                    if you have privacy concerns</li>
-                <li>Use git.cit.bcit.ca, a Gitlab server on campus</li>
-                <li>Use a private repo on bitbucket.com or the GIT server of your choice,
-                and add me as a collaborator</li>
-            </ul>
-        </p>        
-        <p>Whenever you read the term "github repository" in connection
-            with your work, interpret that as whatever GIT repository you are using!</p>
     </slide>
 
     <slide title="Grading" layout="normal">
         <ul>
-            <li>10%: lab participation</li>
-            <li>40%: 10 labs</li>
-            <li>30%: 3 assignments</li>
-            <li>20%: Final exam, comprehensive</li>
+            <li>50%: 10 labs</li>
+            <li>50%: 3 assignments (15/15/20)</li>
         </ul>
         <p>Attendance expected, missing more than 2 labs =&gt; U</p>
-        <p>Labs: individual or varying pairs, rubric-based assessment</p>
-        <p>Assignments: teams of 3-5, each building on the previous,
-            rubric-based assessment</p>
-    </slide>
-
-    <slide title="You ..." layout="normal">
-        <p>Per the dayschool <a href="{outline}" target="_blank">course outline</a>:</p>
-        <ul>            
-            <li>Required proficiency: programming, Java (COMP2526) or C (COMP2510)</li>
-        </ul>
-        <p>Per the dayschool <a href="http://www.bcit.ca/study/programs/550rdiplt#courses" target="_blank">program matrix</a>:</p>
-        <ul>
-            <li>Somewhat proficient: O-O programming, O-O analysis and design (patterns!)</li>
-            <li>Assumed: English, basic math, basic relational database, 
-                basic networks, basic algorithms, basic HTML/CSS</li>
-            <li>Motivated, committed</li>
-            <li>Bonus: PHP, github, FOSS</li>
-        </ul>
+        <p>Rubric-based assessment</p>
     </slide>
 
 </lesson>

@@ -1,7 +1,7 @@
 ## Course Instructors
 **Jim Parry**  
-<jim_parry@bcit.ca>   
-Office: DTC-617  
+<jparry1@bcit.ca>   
+Office: DTC-528  
 Online collaboration: zoom conferences as needed.
 
 ## Desire2Learn LMS
@@ -20,6 +20,6 @@ Online collaboration: zoom conferences as needed.
 
 ##Course Related
 [Course outline]({outline})  
-[Slack team](https://comp4711-winter2019.slack.com) - for notifications & FAQ  
+[Slack team](https://acit3890-fall2019.slack.com) - for notifications & FAQ  
 [Course repo](https://github.com/jedi-academy/learn-4711) - open-sourced, for those who want to look "under the hood"    
 

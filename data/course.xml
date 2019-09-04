@@ -2,24 +2,18 @@
 <!DOCTYPE course SYSTEM "../xml/course.dtd">
 <course>
     <!-- Course metadata -->
-    <code>comp4711</code>
-    <title>Introduction to Internet Software Development</title>
-    <subtitle>COMP4711</subtitle>
+    <code>acit3890</code>
+    <title>Open Source Practices</title>
+    <subtitle>ACIT3890</subtitle>
     <author>James L. Parry</author>
-    <email>jim_parry@bcit.ca</email>
-    <outline>http://www.bcit.ca/study/outlines/20191086101</outline>
-    <session>Winter 2019</session>
+    <email>jparry1@bcit.ca</email>
+    <outline>https://www.bcit.ca/study/outlines/20193046189</outline>
+    <session>Fall 2019</session>
     <school>B.C. Institute of Technology</school>
-    <site>http://www.bcit.ca/cas/computing/</site>
+    <site>http://www.bcit.ca/study/programs/5520diplt</site>
     <license>MIT License</license>
 	
-	<!-- D2L specifric fields -->
-	<ou>521028</ou>
-        <crn>86101</crn>
-    
-    <!-- An introduction, shown at the top of the course homepage -->
-    <intro>
-        This webapp is an ongoing experiment to leverage the course materials for 
-        COMP4711 at BCIT, making them easier to access.
-    </intro>
+    <!-- D2L specifric fields -->
+    <ou>583569</ou>
+    <crn>46189</crn>
 </course>

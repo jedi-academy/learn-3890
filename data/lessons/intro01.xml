@@ -1,273 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Lesson 01a - Introduction
--->
-<lesson status="1.1">
+<lesson status="1.0">
  
-    <slide title="Introduction to Internet Software" layout="normal">
-        <p>This course will help you build a robust RESTful
-            backend webapp.</p>
-        <p>It presents a comprehensive set of skills, but not all of an MVC framework!</p>
-        <p>It shows "best practices", but not the only way to
-            use the framework.</p>
-        <p>The course assumes you know O-O programming,
-            and that you have some familiarity with HTML.</p>
-            <p>You asked your option head for more programming, and here you go - PHP!</p>
-    </slide>
-
-    
-    <slide title="What Makes a Good Webapp?" layout="normal">
-        <br/>
-        <div class="left">
-            "Good" content:
-            <ul>
-                <li>Informative</li>
-                <li>Interesting</li>
-                <li>Exclusive<br/></li>
-            </ul>
-        </div>
-        <div class="right">
-            "Good" properties:
-            <ul>
-                <li>Dynamic</li>
-                <li>Personalized</li>
-                <li>Scaleable</li>
-            </ul>
-        </div>
-    </slide>
-
-    <slide title="How Does a Developer Make a Good Webapp?" layout="normal">
-        <ul>
-            <li>Frameworks &amp; Object Models
-                <ul>
-                    <li>HTTP &amp; web server</li>
-                    <li>Distributed systems &amp; deployment</li>
-                    <li>Server-side &amp; client-side logic</li>
-                </ul>
-            </li>
-            <li>Conventions
-                <ul>
-                    <li>HTML, XML, CSS, JSON</li>
-                </ul>
-            </li>
-            <li>Tools for convenience &amp; productivity
-                <ul>
-                    <li>IDE (NetBeans)</li>
-                    <li>XAMPP</li>
-                    <li>Unit testing, RDBMS</li>
-                    <li>Github, gitflow, CI -> devops</li>
-                </ul>
-            </li>
-            <li>Software ... MVC pattern-driven</li>
-        </ul>
-
-    </slide>
-
-    <slide title="Websites" layout="normal">
-        <p>Webpages (HTML), intended for browser. </p>
-        <p>Typified by:</p>
-        <ul>
-            <li>HTML for page structure</li>
-            <li>CSS for layout</li>
-            <li>Graphics for aesthetics</li>
-            <li>Javascript for client-side logic</li>
-            <li>Support technologies for high availability, fast response, analytics</li>
-        </ul>
-    </slide>
-
-    <slide title="Webapps" layout="normal">
-        <p>To "website", add...</p>
-        <ul>
-            <li>Usecase driven (not sitemap)</li>
-            <li>Business logic</li>
-            <li>Data driven, dynamic</li>
-            <li>Security ... CSRF, encoding, sanitization</li>
-            <li>Internationalization &amp; localization</li>
-            <li>Authentication &amp; personalization</li>
-            <li>Support technologies for scalability, management, integration</li>
-        </ul>
-    </slide>
-
-    <slide title="DevOps" layout="normal">
-        <p>The current trend in software development process!</p>
-        <ul>
-            <li>Software development methodology</li>
-            <li>Communication, collaboration &amp; integration</li>
-            <li>Developers &amp; IT staff</li>
-            <li>Highly automated, often cloud-based</li>
-            <li>Targets product delivery, quality assurance, feature development, maintenance releases, and issue tracking</li>
-            <li>Big on agile management!</li>
-        </ul>
-    </slide>
-
-    <slide title="Technical Terminology" layout="normal">
-        <p class="center">
-            <strong>Glue:</strong>
-            <br/>
-            <br/>
-            A generic term for any interface logic or <br/>
-            protocol that connect two component blocks.
-        </p>
-        <p class="center">
-            <img class="scale" width="698" height="400" src="/pix/lessons/x/x01.jpg"/>
-        </p>    
-    </slide>
-
-    <slide title="Standard Glue (no choice)" layout="normal">
-        <p class="center">
-            Transport: HTTP, HTTPS, AJAX, web sockets, AMQP</p>
-        <p class="center">
-            Representation: XML, JSON, RSS</p>
-        <p class="center">
-            Application: RPC, SOA, REST</p>
-        <p class="center">
-            Infrastructure: email, messaging, services
-        </p>
-    </slide>
-
-    <slide title="1. CLIENT-SERVER ARCHITECTURE" layout="normal" tag="tag1">
-        <div class="left">
-            <p>A distributed system is one in which the components are
-                conceptually or literally on different servers.</p>
-            <p>These can be arranged formally or informally.</p>
-            <br/>
-            <img class="scale" src="/pix/lessons/y/01.png"/>
-        </div>
-        <div class="right">
-            <p>A more formal arrangement affords the opportunity for
-                more rigorous security between external and internal
-                components, which will influence connection
-                technology choices.</p>
-            <img class="scale" src="/pix/lessons/y/02.gif"/>
-        </div>
+    <slide title="Open Source" layout="normal">
+        <p>What is it?</p>
+        <p>Single most important thing?</p>
     </slide>
     
-     <slide title="Remote Procedure Calls (RPC)" layout="normal" >
-        <div class="left">
-            <br/>
-            <img class="scale" src="/pix/lessons/r1.png"/>
-        </div>
-        <div class="right">
-            <p>With a conventional Remote Procedure Call technique,
-                like XML-RPC, arguments for a remote procedure are
-                converted into a transportable data format, and sent to the RPC
-                server. The data structure is dictated by the remote method's signature.</p>
-            <p> The arguments are extracted remotely, and passed to
-                the appropriate method of the handling object there.
-                The reverse process is used to return results or
-                an error/fault message.</p>
-        </div>
+    <slide title="OS Culture" layout="normal">
+        <li>Playing on a world stage!</li>
+        <ul>
+            <li>Fishbowl</li>
+            <li>Inclusive</li>
+            <li>Unforgiving</li>
+        </ul>
     </slide>
 
-    <slide title="Service Oriented Architecture (SOA)" layout="normal" >
-        <div class="left">
-            <br/>
-            <img class="scale" src="/pix/lessons/r2.png"/>
-        </div>
-        <div class="right">
-            <p>A Service Oriented Architecture (SOA) technique is similar to RPC,
-                except that a server needs to register with a naming service, and the
-                client needs to consult the naming service to locate
-                a suitable server to send requests to.</p>
-            <p>Arguments for a remote service, and the response, are
-                converted into a transportable data format, and exchanged between client
-                and server using one of several delivery methods. The data structure is dictated by the configuration
-                provided to the naming service, for both client and server.</p>
-        </div>
+    <slide title="OS Licensing" layout="normal">
+        <ul>
+            <li>M.I.T. ... permissive</li>
+            <li>Apache ... permissive with caveats</li>
+            <li>LGPL ... weak copyleft</li>
+            <li>Gnu Public License (GPL) ... copyleft</li>
+        </ul>
+        <p>Advocacy, arbitration, legals, funding?? ... Apache, FSF, OSI</p>
     </slide>
 
-    <slide title="Representational State Transfer (REST)" layout="normal">
-        <div class="left">
-            <br/>
-            <img class="scale" src="/pix/lessons/y/11.png"/>
-        </div>
-        <div class="right">
-            <p>REST  is the current "darling" of inter-application "glue".</p>
-            <p>It provides for flexible transport protocols, flexible data representation
-                formats, and guidelines for expected client and server behavior.</p>
-            <p>There is, alas, still a lot of room for interpretation, and this
-                is more often called "RESTful".</p>
-        </div>           
+    <slide title="Source Code Management" layout="normal">
+        <ul>
+            <li>"Github"</li>
+            <li>Provenance</li>
+            <li>Continuous integration</li>
+            <li>Code coverage</li>
+        </ul>
     </slide>
 
-    <slide title="Microservices" layout="normal">
-        <div class="left">
-            <br/>
-            <img class="scale" src="/pix/lessons/y/04.png"/>
-        </div>
-        <div class="right">
-            <p>Microservices are an emerging trend, particularly with
-                cloud computing platforms.</p>
-            <p>The notion is to have multiple fine-grained servers
-                rather than fewer coarse-grained servers. The microservices
-                are meant to be small, easy to replace, and independently deployable.</p>
-            <p>Caution (from Wikipedia): there is no industry consensus yet 
-                regarding the properties of microservices, and
-                an official definition is missing as well. </p>
-        </div>           
+    <slide title="Community &amp; Governance" layout="normal">
+        <ul>
+            <li>Code of conduct...</li>
+            <li>B.D.F.L.</li>
+            <li>Meritocracy</li>
+            <li>Non profit?</li>
+            <li>Business model?</li>
+        </ul>
     </slide>
 
-
-    <slide title="2. REST PHILOSOPHY" layout="normal"  tag="tag2">
-        <div>
-            <p>REST is an architectural style or philosophy, not a standard.</p>
-            <ul>
-                <li>Map resources (not usecases) to URLs</li>
-                <li>Map CRUD usecases to HTTP types</li>
-                <li>Pass all needed data (representational state)</li>
-                <li>Accept or deliver multiple formats (XML, JSON, JSONP, CSV, XHTML, text)</li>
-            </ul>
-        </div>    
+    <slide title="Agile Development Processes" layout="normal">
+        <ul>
+            <li>Yes, agile</li>
+            <li>Multiple interpretations...</li>
+            <li>Iterations?</li>
+            <li>Roadmap?</li>
+            <li>Containers</li>
+            <li>Continous deployment?</li>
+        </ul>
     </slide>
 
-    <slide title="REST URLs" layout="normal" >
-        <div class="left">
-            <p>A REST endpoint is intended to identify a resource, and
-                the intended action is denoted by the type of HTTP
-                request sent.</p>
-            <img class="scale" src="/pix/lessons/y/12.png"/>
-        </div>
-        <div class="right">
-            <p>An example, where any data would be part of the HTTP
-                message payload:</p>
-            <ul>
-                <li>Http-get: <code>/product</code> returns a list of products</li>
-                <li>Http-get: <code>/product/123</code> returns product 123</li>
-                <li>Http-post: <code>/product/123</code> creates product 123</li>
-                <li>Http-put: <code>/product/123</code> updates product 123</li>
-                <li>Http-delete: <code>/product/123</code> deletes product 123</li>
-            </ul>    
-        </div>           
+    <slide title="Contribution Process" layout="normal">
+        <ul>
+            <li>D.C.O.</li>
+            <li>Digitally signed</li>
+            <li>Unit tested</li>
+            <li>Conforms to style guide</li>
+            <li>Documented</li>
+            <li>Reviewed</li>
+        </ul>
     </slide>
 
-    <slide title="REST Implementation" layout="normal" >
-        <div class="left">
-            <p>A REST client needs to convert a local object into an acceptable
-                data format, and to then emit the kind of HTTP request appropriate 
-                to the intended action.</p> 
-            <p>A REST server needs to convert an incoming object state representation
-                into a local object, and to dispatch the request to
-                an appropriate handling object/method based on the HTTP request type.</p>
-        </div>
-        <div class="right">
-            <p>In the diagram below, "Trip Management" provides a REST server
-                endpoint for users on smartphones, and it has a REST client
-                which sends requests to the "Passenger Management" REST server
-                endpoint.</p>       
-            <img class="scale" src="/pix/lessons/y/13.png"/>
-        </div>       
+    <slide title="Issue Tracking" layout="normal">
+        <ul>
+            <li>Triage</li>
+            <li>Bugs</li>
+            <li>Feature requests</li>
+            <li>Work packages</li>
+            <li>Integrations</li>
+            <li>Security teams</li>
+        </ul>
     </slide>
 
-    <slide title="3. &quot;RESTful&quot; STANDARDS" layout="normal" tag="tag3">
-        <p>This sounds wonderful, no? What could possibly go wrong?</p>
-        <p>The biggest problem is that there is no REST standard.</p>
-        <p>Different developers, large and small, have chosen to interpret
-            the REST philosophy differently or only partially, with confusing
-            and/or conflicting implementations and expectations.</p>
-        <p>The industry consensus is, that conforming to two or more
-            of the REST principles, fully or partially, entitles you
-            to claim to be "RESTful".</p>
-     </slide>
-
-
+    <slide title="Assignments" layout="normal" tag="tag1">
+        <p>What could possibly go wrong?</p>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
+    </slide>
+    
 </lesson>

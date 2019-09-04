@@ -1,10 +1,10 @@
 ###########################
-COMP4711 Course Hub Website
+ACIT3890 Course Hub Website
 ###########################
 
 This is the course hub for 
-`COMP47111 Introduction to Internet Software Development 
-<http://www.bcit.ca/study/outlines/20163035498>`_.
+`ACIT3890 Open Source Practices 
+<https://www.bcit.ca/study/outlines/20193046189>`_.
 
 *****
 Setup

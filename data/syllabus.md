@@ -2,135 +2,105 @@
 
 ## Course Metadata
 School: School of Computing and Academic Studies  
-Program: Computer Systems Technology  
-Course Credits: 3  
-Start Date: January 07, 2019  
-End Date: April 19, 2019  
-Total Hours: 45  
+Program: Computer Information Technology  
+Course Credits: 4  
+Start Date: Sept 3, 2019  
+End Date: Dec 13, 2019  
+Total Hours: 60  
 Total Weeks: 15  
-Hours/Weeks: 3  
-Delivery Type: Lecture  
-Prerequisites: COMP 2510 or COMP 2526  
+Hours/Weeks: 4  
+Delivery Type: Lecture/Lab  
+Prerequisites: Completed level 2  
 CRN: 86101  
 
 ## Course description
-This course provides the students with an opportunity to develop a software 
-application that works across the internet. An overview of various internet 
-software development technologies is provided. 
-Students will learn how to build a web application using a modern webapp 
-MVC framework and Apache server technology; and how to use XML for data 
-representation, structure and transport. 
+This course provides the students with the skills needed to participate in open 
+source projects, and to collaborate on software development within and between organizations. 
+This is applicable to all four of the CIT skill areas - infrastructure, enterprise 
+software, web services and user support. Anyone can use free and open source 
+technology, but you need appropriate knowledge, mindset and skillset to 
+contribute to and to leverage these technologies. This course takes the 
+student through those, having them progress from participating in a controlled 
+open source project through to contributing to a real & live one. 
 
 ## Course goals
-This course is about webapp development, using best practices.  
-In small teams, the students will build a robust RESTful webapp backend, 
-to complement their option projects.  
-The teams will collaborate using a shared code repository and gitflow workflow, 
-with appropriate supporting tools.  
+Hands-on experience with open source (OS):
 
-*Detailed learning outcomes*:  
-1  Build a moderate MVC web application using a suitable framework.  
-	1.1  Setup a suitable webapp development environment  
-	1.2  Build a basic RESTish webapp backend  
-	1.3  Build a moderately complex RESTful webapp backend  
-2  Build distributed capabilities into an MVC web application  
-	2.1  Use common representation protocols for distributed systems  
-	2.2  Use common transport protocols for distributed systems  
-	2.3  Use common application protocols for distributed systems  
-3  Demonstrate proper team collaboration for webapp development  
-	3.1  Use collaborative workflow to develop a webapp  
-	3.2  Use a shared code repository to develop a webapp  
+- contribution to a controlled OS project
+- setup & contribution to an experimental OS project
+- contribution to a live external OS project
+ 
 
 ## Course learning outcomes / competencies
 Upon successful completion of this course, the student will be able to:  
- 1  Construct an MVC web application using a suitable framework.  
- 2  Construct a valid and well-formed XML document, and constrain it with a DTD.  
- 3  Process XML data using DOM.  
+
+- Describe open source software, its practices and its processes.
+- Describe open source licensing, and select compatible licenses for projects.
+- Demonstrate proper use of shared repositories for distributed software development and collaboration.
+- Describe open source community, and demonstrate proper use of several common tools for it.
+- Describe and demonstrate appropriate agile software development processes.
+- Describe and demonstrate the contribution process for open source (OS) projects.
+- Describe and demonstrate issue tracking for OS projects.
+- Describe and demonstrate peer review and contribution merging for OS projects.
+- Describe and demonstrate continuous integration for OS projects.
+- Describe and demonstrate unit testing and code coverage techniques for OS projects.
+- Describe and demonstrate software container setup and use for OS projects.
+  
 
 ## Evaluation criteria
-Quizzes & participation - 10% ... Readings & lab attendance (motivation)  
-Labs - 40% ... 10 walkthrough labs (guidance)  
-Assignments - 30% ... 2-3 assignments (practice)  
-Final exam - 20% ... Multiple choice, short & long answer (assessment)
+Labs - 50% 
+Assignments - 50% ... In-class presentation of final assignment/project, in place of final exam
 
 ## Attendance requirements
-Students missing more than two labs will receive an Unsatisfactory grade in the course, and fail.
+**CIT standard Attendance Requirements**
+
+Attendance in classes are mandatory. In case of illness or other unavoidable cause of 
+absence, the student must communicate as soon as possible with his/her instructor 
+indicating the reason for the absence. Prolonged illness which causes the student 
+to miss 10% or more of the classes will require a BCIT-approved medical 
+certificate submitted to the department, substantiating the reason for the absence. 
+Unapproved absence of 10% or more of the classes may result in failure or 
+forced withdrawal from this course.
 
 ## Learning resources
-Open-source tool set, including  
-- AMP (Apache + MySQL + PHP7) server environment, suitable for the student's platform; 
-    eg [xAMP stack](https://bitnami.com/stacks/infrastructure)
-- PHP and HTML/CSS aware editor, eg [NetBeans 8](https://netbeans.org/downloads/8.2/),
-    [NetBeans 10](https://netbeans.apache.org/download/nb100/nb100.html)  or 
-    [PhpStorm](https://jetbrains.com/phpstorm) , 
-    or text editor, eg. [Sublime 3](https://www.sublimetext.com/3)
-- [Composer](https://getcomposer.org) , PHP dependency manager
-- CodeIgniter 4 webapp framework [starter project](https://packagist.org/packages/codeigniter4/appstarter)
-- [MongoDB](https://www.mongodb.com) document database
+Readings and exercises assigned from multiple online sources, such as:
+
+- https://opensource.org/
+- http://teachingopensource.org/
+- http://foss2serve.org/index.php/Main_Page
 
 ## Course specific requirements
+The course is platform and technology neutral, as far as practical.
 
-The expected workload for this course is one hour out-of-class for each timetabled hour. 
-The expectation is that a student will spend one hour on the assigned reading and 
-related quiz/questionnaire, and two hours collaborating on their assignment(s).
+Required: working computer, internet connectivity, open mind
 
-Weekly readings will be assigned, starting with the second week, following a 
-"flipped" learning model. The readings are in place of a textbook.
-Students are to encouraged to read these lessons ahead of time, and have the 
-opportunity to complete a weekly survey by the evening before that
-week's lecture. Survey responses are used to tailor the lecture to 
-address unclear topics.
-
-Most labs will use pair programming, though some will be individual. 
-Most of these labs will have starter projects, on github. 
-The usual submission, if needed, will be a readme file in a D2L dropbox, 
-containing a link to the students' github repository they used to complete the work. 
-Lab grading will be by rubric, and the two members of a pair do not have to r
-eceive the same grade. Lab work is meant to be completed during the lab period, with
-time available to apply the lab's outcomes to the students' assignments.
-
-Assignments will be completed in student-selected project teams of 3-5 members. 
-The same team will be used for all assignments. If a student does not have a team, 
-they will be assigned one by the instructor. Teams of one or of two members are not acceptable. 
-Team members' grades are commensurate with their contribution, as well as 
-performance assessed by an assignment rubric. Team submissions will be in the 
-form of a readme file in a D2L dropbox, with a link to the team's git repository for their project.
-
-Course materials (lessons, examples, tutorials, labs and assignments) will be 
-shared through a public website (the course “hub”), with sensitive material on D2L. 
-Lab and assignment feedback will be provided through the D2L dropboxes that 
-readme files are submitted to. The D2L gradebook will be useful only to review 
-D2L-captured grade components, and it will not provide an accurate final grade in the course.
-
-Students who miss class for an acceptable reason will be excused from attendance 
-and survey/quiz/questionnaire completion, should those fall during the excused 
-period. Missed readings or lab work will need to be made up by the student.
 
 ## Course schedule
 
 **Week & Material Covered**  
-1 Introduction to MVC Webapps  
-2 MVC Frameworks  
-3 Collaborative Workflow  
-4 Controllers & Routing  
-5 Responses  
-6 Relational Models  
-7 Entities  
-8 Non-relational models  
-9 Representation Glue - XML  
-10 Representation Glue - JSON  
-11 Transport Glue  
-12 Application Glue - REST  
-13 Authentication  
-14 Final exam week
+1 Course introduction  
+2 Open source licensing  
+3 Shared repositories for collaboration  
+4 Community & governance  
+5 Agile Development Processes  
+6 Contribution process  
+7 Issue tracking  
+8 Peer review & contribution merging  
+9 Continuous integration  
+10 Unit testing & code coverage  
+11 Containers  
+12 Live project selection  
+13 Live project first contribution  
+14 Live project second contribution
+15 Project presentation
 
-This course does not have a midterm. Students may request an individual or team interview with the instructor.  
+This course does not have a midterm or final exam. Students may request an individual or team interview with the instructor.  
 Refer to the organizer on the course hub home page for more detailed schedule information.  
 
 ## Assignments
-1 – RESTish backend - Create and access model data, with JSON data exchange (End of week 5)  
-2 – RESTful resource - Full model CRUD, supporting JSON data exchange (End of week 9)  
-3 - RESTful API service - Add service API, with XML support added to CRUD (End of week 13)  
+1 – Controlled OS project contribution (End of week 6)  
+2 – Student-created experimental OS project (End of week 10)  
+3 - Contribution to live external OS project. (Week 15)  
 
 
 ## BCIT policy
