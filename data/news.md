@@ -6,3 +6,5 @@ Messenger: This is madness!
 King Leonidas: Madness? This is Sparta!
 
 ## Week 2- Sept 10
+
+What license does Sparta use?
