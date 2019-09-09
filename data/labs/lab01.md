@@ -1,19 +1,19 @@
-# Lab #1 - Investigate!
+# Lab #1 - Project Profiles
 ACIT3890 - BCIT - Fall 2019
 
 ## Lab Goals
 
-Identify and investigate three open source projects of interest to you
+Identify, investigate and profile three open source projects of interest to you
 (1 small, 1 medium, 1 large).
 
 ## Lab Tasks
 
 For each of your projects, prepare a formatted JSON document,
-conforming to the template in the [lab repo](https://github.com/jim-parry/3890-lab02), and named after the
+using the template in the [lab repo](https://github.com/jim-parry/3890-lab02), and named after the
 project (eg. WillyWonka.json).
 
-No duplicate projects allowed. The repo has a list of the
-projects spoken for, which I will update as you inform me.
+No duplicate projects allowed, across the set. The repo has a list of the
+projects spoken for, which I will update as we go.
 
 ## Description legend
 
