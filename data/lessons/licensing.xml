@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson status="1.0">
+ 
+    <slide title="Licensors" layout="normal">
+        <ul>
+            <li>Claim authorship or assignment</li>
+            <li>Assert copyright</li>
+            <li>Grant licenses</li>
+        </ul>
+    </slide>
+    
+    <slide title="Licensee Rights" layout="normal">
+        <ul>
+            <li>Read</li>
+            <li>Use (may have caveats)</li>
+            <li>Modify (may have caveats)</li>
+            <li>Distribute (may have caveats)</li>
+        </ul>
+    </slide>
+
+    <slide title="Licensee Obligations" layout="normal">
+        <ul>
+            <li>Preserve copyright and license</li>
+            <li>Derivative works...</li>
+            <li>Change disclosure?</li>
+        </ul>
+    </slide>
+
+    <slide title="Licensee Limitations" layout="normal">
+        <ul>
+            <li>Liability</li>
+            <li>Warranty</li>
+            <li>Trademarks...</li>
+        </ul>
+    </slide>
+
+    <slide title="Licensor Rights" layout="normal">
+        <ul>
+            <li>Relicense</li>
+            <li>Multiple licenses</li>
+        </ul>
+    </slide>
+
+    <slide title="Enforcement?" layout="normal">
+        <ul>
+            <li>Remedy licensor infringements ... grace period?</li>
+            <li>Pursue licensee infringements ... sue, with help</li>
+        </ul>
+    </slide>
+
+    <slide title="Other Intellectual Property" layout="normal">
+        <ul>
+            <li>Creative works (art, copy, etc) ... https://creativecommons.org/</li>
+            <li>Patents (devices, processes) ... https://www.uspto.gov/</li>
+            <li>Performance ... [different from software](https://www.easysonglicensing.com/pages/help/articles/music-licensing/what-is-a-public-performance-license.aspx)</li>
+        </ul>
+    </slide>
+
+    <slide title="Who Ya Gonna Call?" layout="normal">
+        <ul>
+            <li>Local ...</li>
+            <li>Canada ...</li>
+            <li>US / international ...</li>
+            <li>Organizations ...</li>
+        </ul>
+    </slide>
+
+</lesson>

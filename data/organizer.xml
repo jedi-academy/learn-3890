@@ -11,6 +11,9 @@ Course organizer for Comp4711
     </week>
     <week num="2">
         <topic>Licensing</topic>
+        <lesson name="prep02" icon="dothis">Licensing session prep</lesson>
+        <lesson name="licensing" >Open Source Licensing</lesson>
+        <lab name="lab02">Licensing case study</lab>       
     </week>
     <week num="3">
         <topic>Source Code Management</topic>         
