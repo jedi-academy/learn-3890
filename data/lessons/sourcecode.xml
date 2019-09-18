@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson status="1.4">
+
+    <!-- Normal slides -->
+    <slide title="Lesson Goals" layout="normal">
+        <p>This short lesson introduces some source code management notions.</p>
+            <ul>
+                <li>Place</li>
+                <li>Tool</li>
+                <li>Management</li>
+                <li>Process</li>
+                <li>Integration</li>
+            </ul>
+    </slide>
+
+    <slide title="Place" layout="normal" tag="tag1">
+            <ul>
+                <li>Each project needs a repository, somewhere for code to live</li>
+                <li>Github is the defacto standard</li>
+                <li>A project can have repositories per module</li>
+                <li>Web or network accessible</li>
+            </ul>
+    </slide>
+
+    <slide title="Tool" layout="normal" tag="tag1">
+            <ul>
+                <li>Each project needs a version control tool</li>
+                <li>Git is the defacto standard</li>
+                <li>Manages state, releases</li>
+                <li>Preserves history</li>
+            </ul>
+    </slide>
+
+   <slide title="Management" layout="normal" tag="tag1">
+            <ul>
+                <li>Administrator(s)</li>
+                <li>Maintainer(s)</li>
+                <li>Repo or organization level</li>
+            </ul>
+    </slide>
+
+    <slide title="Process" layout="normal">
+        <div class="left">
+            <p>Gitflow workflow - branching conventions, forking,
+                branching</p>
+            <p>Provenance matters</p>
+            <p>All development is done on the "develop" branch, which is merged
+                into the "master" branch to form a new release.
+                If you only deploy from the "master" branch, conflicts don't affect it.</p>
+        </div>
+        <div class="right">
+            <br/>
+            <img class="scale" width="800" height="323" src="/pix/lessons/2/2-23.png"/>
+        </div>
+    </slide>
+
+    <slide title="Integrations" layout="normal">
+             <ul>
+                <li>The "toolchain"</li>
+                <li>CI/CD</li>
+                <li>Issue tracking</li>
+                <li>Quality control</li>
+                <li>Collaboration</li>
+                <li>Mini-apps (octobots), webhooks, permissions</li>
+            </ul>
+    </slide>
+ 
+    <slide title="Gitflow Gotchas" layout="normal">
+        <p>Gitflow is not the only workflow possible, and it is not
+        without problems...</p>
+        <ul>
+            <li>Merge conflicts - when two people update the same stuff</li>
+            <li>Synchronization - when your project gets hopelessly out of
+            synch with the team's</li>
+            <li>Unhelpful commit messages - what/who broke something</li>
+            <li>Unhelpful pull request descriptions - has something already been done</li>
+            <li>Misusing issues - premature closing</li>
+            <li>Properly attributing work done - not just for marks</li>
+        </ul>
+    </slide>
+ 
+</lesson>

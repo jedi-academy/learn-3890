@@ -8,15 +8,20 @@ Course organizer for Comp4711
         <lesson name="intro00">Course Outline</lesson>
         <lesson name="intro01" >Course Introduction</lesson>
         <lab name="lab01">Investigate</lab>
+        <example name="profiles.ods" link="/download/profiles.ods">Project profiles</example>
     </week>
     <week num="2">
         <topic>Licensing</topic>
         <lesson name="prep02" icon="dothis">Licensing session prep</lesson>
         <lesson name="licensing" >Open Source Licensing</lesson>
         <lab name="lab02">Licensing case study</lab>       
+        <lab name="mongodb-case" icon="read" >MongoDB Case Study</lab>
     </week>
     <week num="3">
         <topic>Source Code Management</topic>         
+        <lesson name="sourcecode" >Source Code Management</lesson>
+        <lesson name="flow" icon="read">Workflow Cheatsheet</lesson>
+        <lab name="lab03">Collaborative Workflow</lab>       
     </week>
     <week num="4">
         <topic>Community &amp; Governance</topic>         
