@@ -25,3 +25,14 @@ with you at the beginning of class, which parallels this week's lab.
 The profiles submitted for lab 1 have been collected into a worksheet, accessible in the week 1 tab.
 
 The lab 2 submissions have been collected into a case study writeup, accessible in the week 2 tab.
+
+## Week 4 - Sept 25
+
+We are looking into governance and community this week.
+
+Governance refers to the decision making in a project (eg choosing features),
+and there are only two fundamental models for it. 
+Read the [OSS Watch briefing](http://oss-watch.ac.uk/resources/governancemodels),
+and then complete the governance survey on D2L.
+
+"Community" is another matter altogether, and that's what we will explore in class :)
