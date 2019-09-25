@@ -36,3 +36,5 @@ Read the [OSS Watch briefing](http://oss-watch.ac.uk/resources/governancemodels)
 and then complete the governance survey on D2L.
 
 "Community" is another matter altogether, and that's what we will explore in class :)
+
+Assignment #1 has been posted in the week 6 tab, when it is due.

@@ -1,59 +1,41 @@
-# Assignment #1 - RESTish Backend
-COMP4711 - BCIT - Winter 2019
+# Assignment #1 - Managed Controbution
+ACIT3890 - BCIT - Fall 2019
 
-## Assignments Overview
-
-The purpose of the assignments, collectively, is to have you apply the techniques 
-from the lessons and tutorials, in a context that will be helpful to you
-when you build your project next term.
-
-In your option project teams (of three to five), you will be building a small 
-but complete RESTful backend webapp. 
-
-This will be done in three stages, with specific expectations for each stage. 
-Each assignment will build on the previous one.
-
-You are free to use the programming language and framework of your choice to implement
-these, bearing in mind that assistance for non-CodeIgniter projects will
-be spotty, and you may have to explain how your project achieves the assignment goals.
 
 ## Goals for This Assignment
 
-The purpose of this assignment #1 is to get the basic pieces of your backend
-webapp in place, properly routed. 
+The purpose of this assignment have you demonstrate proper contribution to
+a live (public) open soruce project, albeit in a sheltered fashion. 
 
+## Assignment Overview
 
-## Recipe
+The [CodeIgniter website](https://codeigniter.com/en/home) stems from a 
+[repository](https://github.com/codeigniter4projects/website2) within
+the CodeIgniter project. It has hooks in place for localization,
+i.e. rendering of the pages in any of the "provided" translations.
 
-Here is a checklist for completing the assignment:
+The only locale "provided" out-of-the-box is English, and that is where
+you come in :)
 
-- Setup your team
-    - captain, mates, D2L group, team repo, readme with team agreement
-- Plan your project
-    - one or two plausible resources, one or two plausible API usecases/groups
-- Build mock models for your resources, with non-trivial data 
-    (4-8 fields per record, 6-12 records in all)
-- For each resource, have a resource routing to a resource controller...
-    - which uses the equivalent of the API response trait
-    - only has to handle the index() and show() methods properly
-    - data to come from your model(s)
-    - other resource methods to return suitable failures
-- For each API endpoint, identify and implement several plausible methods
-    - make sure to cover GET and POST between them
-    - the controllers should use the equivalent of the API response trait
-    - you can provide plausible but bogus responses
-- Make it testable
-    - a way to invoke each endpoint & behaviour, and see the response
-    - could be Javascript & AJAX; could be forms submitted
-    - doesn't have to be home or landing page, but could be
-- Follow good gitflow workflow
-- Cleanup
-    - readme, changelog?, commented code!, cruft gone, all synched
+All messages are in language-specific files, inside an appropriate folder
+(named with the ISO-639-1 locale code) of `app/Language`.
+
+You are to translate one or more message sets, for a locale to
+be negotiated in class. The target is roughly 100 lines
+per student. You are welcome to do more, but it is not expected.
+
+Follow gitflow workflow (forking, branching), with GPG-signed commits
+and meaningful commit/PR titles.
+
+As contributions get merged, the [testing website](https://website2.codeigniter.com/) will be
+updated, so you can see the effect of your work.
+
+Once the assignment is over, the translations will end up going live,
+with the new locales added by you. Your names may also show up on 
+the [official site](https://codeigniter.com/en/contribute), in the acknowledgements!
 
 ## Assignment submission
 
-Submit a link to your team repo for this project, to the dropbox.
+Submit a comment or text file with your github username to the dropbox.
 
-It will have a rubric attached.
-
-Due date: Sunday, Feb 10, 23:30
+Due date: Sunday, Oct 13, 23:30

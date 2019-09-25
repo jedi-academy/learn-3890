@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson status="1.0">
+ 
+    <slide title="Governance" layout="normal">
+        <ul>
+            <li>Choosing features or direction of a project</li>
+            <li>Set code of conduct</li>
+            <li>Set contribution guidelines</li>
+        </ul>
+    </slide>
+    
+    <slide title="Governance Models" layout="normal">
+        <ul>
+            <li>Benevolent Dictator for Life (BDFL) - Python, Perl</li>
+            <li>Steering committee (several) - CodeIgniter</li>
+            <li>Foundation / community (dozens) - conservancies</li>
+            <li>Meritocracy (hundreds) - PHP</li>
+            <li>Formal meritocracy (several dozen) - Java, Apache</li>
+        </ul>
+    </slide>
+
+    <slide title="Artifacts" layout="normal">
+        <ul>
+            <li>License</li>
+            <li>Roadmap</li>
+            <li>Vision boards ... [wide](https://forum.codeigniter.com/attachment.php?aid=1543) 
+                and/or [narrow](https://forum.codeigniter.com/attachment.php?aid=1530)</li>
+            <li>Code of conduct ... [github](https://opensource.guide/code-of-conduct/), 
+                [mongoDB](https://www.mongodb.com/community-code-of-conduct)</li>
+        </ul>
+    </slide>
+
+    <slide title="Beware" layout="normal">
+        <ul>
+            <li>Lip service</li>
+            <li>Trolls </li>
+            <li>Poison pills</li>
+            <li>Lack of transparency</li>
+            <li>Lack of consistency ... [node.js, io.js and ayo.js](https://www.zdnet.com/article/after-governance-breakdown-node-js-leaders-fight-for-its-survival/)</li>
+            <li>Philosophy ... [npm and kik](https://qz.com/646467/how-one-programmer-broke-the-internet-by-deleting-a-tiny-piece-of-code/)</li>
+        </ul>
+    </slide>
+
+</lesson>

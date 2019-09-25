@@ -20,3 +20,21 @@
 - [Bazaar](http://bazaar.canonical.com/en/)
 - [Mercurial](https://www.mercurial-scm.org/)
 - [Subversion](https://subversion.apache.org/)
+
+## Governance
+
+- [Governance models](http://oss-watch.ac.uk/resources/governancemodels)
+- [Benevolent dictator governance model](http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel)
+- [Meritocratic governance model](http://oss-watch.ac.uk/resources/meritocraticgovernancemodel)
+
+## Community
+
+- [How to build an open source community](http://oss-watch.ac.uk/resources/howtobuildcommunity)
+- [Essential tools for running a community-led project](http://oss-watch.ac.uk/resources/communitytools)
+- [Building Welcoming Communities](https://opensource.guide/building-community/)
+- [12 challenges for open source projects](https://opensource.com/life/14/6/12-challenges-open-source-projects)
+
+## Agile development
+
+- [Scrum vs Kanban](https://www.latestquality.com/basic-difference-scrum-kanban/)
+- [10 Kanban Board Examples](https://leankit.com/learn/kanban/kanban-board-examples-for-development-and-operations/)

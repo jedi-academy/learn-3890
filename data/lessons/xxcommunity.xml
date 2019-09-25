@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lesson status="1.0">
+ 
+    <slide title="Community" layout="normal">
+        <ul>
+            <li>The most important aspect of a project</li>
+            <li>Must feel welcome and valued</li>
+        </ul>
+    </slide>
+    
+    <slide title="Who is Your Community?" layout="normal">
+        <ul>
+            <li>Users</li>
+            <li>Helpers</li>
+            <li>Contributors</li>
+            <li>Maintainers</li>
+            <li>Leaders</li>
+        </ul>
+    </slide>
+
+    <slide title="Community Needs?" layout="normal">
+        <ul>
+            <li>Support - structured vs interactive</li>
+            <li>Workflow guides - contributing</li>
+            <li>Project management - planning &amp; tracking</li>
+        </ul>
+    </slide>
+
+    <slide title="Community Tools?" layout="normal">
+        <p>Communicate, engage, manage</p>
+        <ul>
+            <li>Website ... [github?](https://pages.github.com/), blog?, wiki? or ...</li>
+            <li>Forum - [Discourse](https://www.discourse.org/), 
+                [phpBB](https://www.phpbb.com/), 
+                ... github? stackoverflow? 
+                [Mybb](https://forum.codeigniter.com)</li>
+
+            <li>Planning - [Trello](http://trello.com/), 
+                [Pivotal Tracker](https://www.pivotaltracker.com/)</li>
+            <li>All-in-one? ... [Basecamp](https://basecamp.com/),
+                [Confluence](https://www.atlassian.com/software/confluence),
+                [Monday](https://monday.com/)</li>
+            <li>Code - github</li>
+        </ul>
+    </slide>
+
+</lesson>
