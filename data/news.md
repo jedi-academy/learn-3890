@@ -38,3 +38,14 @@ and then complete the governance survey on D2L.
 "Community" is another matter altogether, and that's what we will explore in class :)
 
 Assignment #1 has been posted in the week 6 tab, when it is due.
+
+## Week 5 - Oct 2
+
+We will be working with agile development & its integrations this week.
+
+As prep, refresh your knowledge of agile project management.
+
+Suggested:  [Project Management 101](https://zapier.com/learn/project-management/project-management-systems/)  
+If pressed for time: [Beginners’ Guide to Agile](https://www.workfront.com/blog/the-beginners-guide-to-agile-project-management-methodology)
+
+The terms you want to be up on: release, sprint, icebox, backlog, scrum, burndown, velocity
