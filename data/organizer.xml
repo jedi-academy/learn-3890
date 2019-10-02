@@ -27,10 +27,12 @@ Course organizer for Comp4711
         <topic>Community &amp; Governance</topic>         
         <lesson name="governance" >Governance</lesson>
         <lesson name="community" >Community</lesson>
-       <lab name="lab04">Community</lab>       
+        <lab name="lab04">Community</lab>       
     </week>
     <week num="5">
         <topic>Agile Development Processes</topic>
+        <lesson name="agile" >Agile Development</lesson>
+        <lab name="lab05" >Agile Tools</lab>
     </week>
     <week num="6">
         <topic>Contribution Process</topic>
@@ -47,7 +49,8 @@ Course organizer for Comp4711
     </week>
     <week num="10">
         <topic>Unit Testing &amp; Code Coverage</topic>
-    </week>
+        <assignment name="assignment2">Assignment #2</assignment>
+   </week>
     <week num="11">
         <topic>Containers</topic>
     </week>
@@ -59,6 +62,7 @@ Course organizer for Comp4711
     </week>
     <week num="14">
         <topic>Live Project Second Contribution</topic>
+       <assignment name="assignment3">Assignment #3</assignment>
     </week>
     <week num="15">
         <topic>Project Presentation</topic>

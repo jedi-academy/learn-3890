@@ -1,4 +1,4 @@
-# Assignment #1 - Managed Controbution
+# Assignment #1 - Managed Contribution
 ACIT3890 - BCIT - Fall 2019
 
 
