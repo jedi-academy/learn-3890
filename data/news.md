@@ -31,3 +31,10 @@ for this purpose.
 ## Assignment Details
 
 Suggested topics ... see tabs for weeks 10 & 14
+
+## Lab 5 Help
+
+I have put some NOTES together for you, to help with the issues encountered trying to complete it.
+It is in the week 5 tab.
+
+Ask additional questions or raise any issues on slack, thanks!
