@@ -22,13 +22,19 @@ related to the CodeIgniter 4 project:
     - all needs testing; it must still work
 - tool to build or suggest FAQ entries from forum
     - chatbot opportunity?
-- forum moderator tool
+- forum moderator tool (team of 3)
     - identify spammers, suspect users, self-promo users
-    - could be stand-alone of forum plugin
+    - could be stand-alone or forum plugin
+    - needs UI
 - tool to cleanup forum data (1GB)
-    - remove unused avatars, drop dead users
-- security audit
-    - not for the faint of heart, hehe
+    - remove unused avatars, propose dead users to drop, remove unused attachments
+    - needs UI
+- tool to convert the CodeIgniter 3 wiki to forum threads (team of 3?)
+    - so that we can remove the wiki
+    - could be stand-alone or forum plugin
+
+Teams will have to split up the work, and hence the PRS, so that each member
+ends up with credit in the repositories, some of which might be new.
 
 ## Assignment submission
 
