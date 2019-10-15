@@ -38,3 +38,17 @@ I have put some NOTES together for you, to help with the issues encountered tryi
 It is in the week 5 tab.
 
 Ask additional questions or raise any issues on slack, thanks!
+
+## Week 7
+
+I sense a lack of enthusiasm for the proposed assignment topics, and
+that you are itching to get into the toolchain. So be it.
+
+I will revise the organizer later today, but we will dive into
+CI/CD tomorrow, with a revised assignment 2 topic list that I hope
+will grab you more.
+
+So, formal details of the course schedule change tomorrow.
+
+In prep, I suggest you read the Atlassian article, 
+[CI vs CD vs CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment).
