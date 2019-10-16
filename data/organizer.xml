@@ -40,18 +40,21 @@ Course organizer for Comp4711
         <assignment name="assignment1">Assignment #1</assignment>
     </week>
     <week num="7">
-        <topic>Issue Tracking</topic>
+        <topic>Continuous Integration, Delivery &amp; Deployment</topic>
+        <lesson name="toolchain" >CI/CD Toolchain</lesson>
+        <lesson name="workflows" >CodeIgniter Workflows</lesson>
+        <assignment name="assignment2">Assignment #2</assignment>   
     </week>
     <week num="8">
-        <topic>Peer Review</topic>
+        <topic>Continuous Integration - Travis-CI</topic>
     </week>
     <week num="9">
-        <topic>Continuous Integration</topic>
+        <topic>Issue Tracking &amp;Peer Review</topic>
     </week>
     <week num="10">
         <topic>Unit Testing &amp; Code Coverage</topic>
         <assignment name="assignment2">Assignment #2</assignment>
-   </week>
+    </week>
     <week num="11">
         <topic>Containers</topic>
     </week>
@@ -63,7 +66,7 @@ Course organizer for Comp4711
     </week>
     <week num="14">
         <topic>Live Project Second Contribution</topic>
-       <assignment name="assignment3">Assignment #3</assignment>
+        <assignment name="assignment3">Assignment #3</assignment>
     </week>
     <week num="15">
         <topic>Project Presentation</topic>

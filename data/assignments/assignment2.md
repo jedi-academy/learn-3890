@@ -1,43 +1,44 @@
-# Assignment #2 - Small-medium Contribution
+# Assignment #2 - Toolchain Candidates
 ACIT3890 - BCIT - Fall 2019
 
 
 ## Goals for This Assignment
 
-The purpose of this assignment is for you to work with one of the tools
-in an open source project, or to build a supporting tool/script. 
+The purpose of this assignment is for you to work with one of the toolchain
+components for an open source project, evaluate it in the context
+of CodeIgniter, and make a pitch for integrating it into
+CodeIgniter's workflow. 
 
-This can be a team of two or three.
+This assignment can be done individually or as a team of two.
+If there is a team brave enough to tackle Kubernetes, that can be a team of three.
 
-## Assignment Topics
+## Candidate Tools
 
-The class has not seemed enthusiastic about a class project/repo etc.
-Accordingly, I have the following suggested assignment topics,
-related to the CodeIgniter 4 project:
+The following tools are commonly part of CI/CD toolchains.
+Each has a link to the neutral wikipedia writeup, the tool's
+homepage, and then what it claims to be or do.
 
-- upgrade the documentation tool from Sphinx 1.4.5 to Sphinx 3.0
-    - Python needs to be bumped to v3;
-    - user_guide_src needs readme, makefile and source/conf.py updated
-    - admin/ needs docbot updated
-    - all needs testing; it must still work
-- tool to build or suggest FAQ entries from forum
-    - chatbot opportunity?
-- forum moderator tool (team of 3)
-    - identify spammers, suspect users, self-promo users
-    - could be stand-alone or forum plugin
-    - needs UI
-- tool to cleanup forum data (1GB)
-    - remove unused avatars, propose dead users to drop, remove unused attachments
-    - needs UI
-- tool to convert the CodeIgniter 3 wiki to forum threads (team of 3?)
-    - so that we can remove the wiki
-    - could be stand-alone or forum plugin
-
-Teams will have to split up the work, and hence the PRS, so that each member
-ends up with credit in the repositories, some of which might be new.
+- Ansible - [wiki](https://en.wikipedia.org/wiki/Ansible_(software)) or [home](https://www.ansible.com/) - software provisioning and configuration management
+- Capistrano - [wiki](https://en.wikipedia.org/wiki/Capistrano_(software)) or [home](http://capistranorb.com/) - web deployment
+- Chef - [wiki](https://en.wikipedia.org/wiki/Chef_(software)) or [home](http://www.chef.io/) - configuration management
+- Docket - [wiki](https://en.wikipedia.org/wiki/Docker_(software)#Tools) or [home](https://www.docker.com/) - platform as a service
+- Jenkins - [wiki](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=12&cad=rja&uact=8&ved=2ahUKEwjom9LF5qDlAhVCj54KHZSeBigQFjALegQIAhAB&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJenkins_(software)&usg=AOvVaw1obqNYdlbM-aqvHp5GmmyY) or [home](https://jenkins.io/) - automation server
+- Kubernetes - [wiki](https://en.wikipedia.org/wiki/Kubernetes) or [home](https://kubernetes.io/) - container orchestration
+- Puppet - [wiki](https://en.wikipedia.org/wiki/Puppet_(software)) or [home](https://puppet.com/) - configuration management
+- Salt - [wiki](https://en.wikipedia.org/wiki/SaltStack) or [home](https://www.saltstack.com/) - automation and configuration management
+- Terraform - [wiki](https://en.wikipedia.org/wiki/Terraform_(software)) or [home](https://www.terraform.io/) - infrastructure as a service
+- Zuul - [wiki](#) or [home](https://zuul-ci.org/) - project gating
 
 ## Assignment submission
 
-Submit a writeup of your project, with appropriate links.
+Tool writeup:
+
+- explanation
+- evaluation
+- pitch
+
+In addition, you will be expected to do an inclass demo of your tool.
+
+Submit your writeup of your project, with appropriate links.
 
 Due date: Sunday, Nov 10, 23:30
