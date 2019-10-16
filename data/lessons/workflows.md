@@ -11,7 +11,7 @@ ACIT3890 - BCIT - Fall 2019
 - CI: travis-ci (phpunit x9, coverage)
 - docs: sh, optional staging
 - release: man changelog, PR, merge to master, release-build sh, vet, release-deploy
-    - codeigniter4, framework, appstarter, userguide
+    - codeigniter4 plus, framework, appstarter, userguide distros
     - packagist
 
 ## translations
@@ -36,3 +36,12 @@ ACIT3890 - BCIT - Fall 2019
 - release: man update site
     - dep on guides & download data
 
+## Trigger reach
+
+                            Integrate   Deliver     Deploy
+    push to branch              Y           x           x
+    merge to branch             Y           x           x
+    push to develop             Y           Y?          ?
+    merge to develop            Y           Y?          ?
+    push to master              Y           Y           Y?
+    merge to master             Y           Y           Y?
