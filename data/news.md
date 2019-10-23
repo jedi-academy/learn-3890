@@ -52,3 +52,9 @@ So, formal details of the course schedule change tomorrow.
 
 In prep, I suggest you read the Atlassian article, 
 [CI vs CD vs CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment).
+
+## Week 8 - Oct 24
+
+Just a reminder - this week's lecture will be online, Thurs 13:30, to accommodate midterms.
+
+Good luck in your midterms :)
