@@ -47,6 +47,7 @@ Course organizer for Comp4711
     </week>
     <week num="8">
         <topic>Continuous Integration - Travis-CI</topic>
+       <lab name="lab06" >Travis-CI</lab>
     </week>
     <week num="9">
         <topic>Issue Tracking &amp;Peer Review</topic>
