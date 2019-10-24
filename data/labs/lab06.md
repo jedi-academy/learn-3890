@@ -28,6 +28,14 @@ There are two more tools you want to install on your machine:
 The first is for managing project dependencies, while the second
 is used by PHPUnit testing.
 
+**Xdebug notes** Easier install:
+
+- `php -i > phpinfo`
+- go to https://xdebug.org/wizard
+- paste contents of "phpinfo" into the text area.
+- custom install instructions for you will be supplied, eg.specific DLL
+  to download, where to copy it, and the line in php.ini that needs to be changed.
+
 ## 1. Your repo
 
 Create a public repo under your github account. The name isn't important, as this repo will be just an excuse
