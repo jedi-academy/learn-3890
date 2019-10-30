@@ -47,29 +47,33 @@ Course organizer for Comp4711
     </week>
     <week num="8">
         <topic>Continuous Integration - Travis-CI</topic>
-       <lab name="lab06" >Travis-CI</lab>
+        <lab name="lab06" >Travis-CI</lab>
     </week>
     <week num="9">
-        <topic>Issue Tracking &amp;Peer Review</topic>
+        <topic>Azure &amp; Devops</topic>
+        <lab name="lab07">Azure &amp; Devops CI/CD</lab>
+    </week>
+    <week num="9">
+        <topic>Jenkins &amp; Docker</topic>
+        <lab name="lab08">Jenkins &amp; Docker CI/CD</lab>
     </week>
     <week num="10">
-        <topic>Unit Testing &amp; Code Coverage</topic>
-        <assignment name="assignment2">Assignment #2</assignment>
+        <topic>Laravel&amp; Buddy</topic>
+        <lab name="lab09">Laravel &amp; Buddy CI/CD</lab>
     </week>
-    <week num="11">
-        <topic>Containers</topic>
+    <week num="11">zs
+        <topic>Laravel and Semaphore CI/CD</topic>
+       <lab name="lab10">Laravel &amp; Semaphore CI/CD</lab>
     </week>
     <week num="12">
         <topic>Live Project Selection</topic>
-    </week>
-    <week num="13">
-        <topic>Live Project First Contribution</topic>
-    </week>
-    <week num="14">
-        <topic>Live Project Second Contribution</topic>
         <assignment name="assignment3">Assignment #3</assignment>
     </week>
-    <week num="15">
-        <topic>Project Presentation</topic>
+    s    <week num="13">
+        <topic>Live Project Contribution</topic>
     </week>
+    <week num="14">
+        <topic>Live Project Wrapup</topic>
+    </week>
+    
 </organizer>

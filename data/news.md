@@ -58,3 +58,13 @@ In prep, I suggest you read the Atlassian article,
 Just a reminder - this week's lecture will be online, Thurs 13:30, to accommodate midterms.
 
 Good luck in your midterms :)
+
+## Week 9 - Oct 30
+
+And our final course correction: weeks 9-12 each focus on a different CI/CD toolchain.You are to complete any
+three of them, except one you are not eligible for as it overlaps/conflcts with your assgnment 2.
+
+Assignment 2 remains unchanged - investigate a tool in sufficient depth to provide  a recommendation
+or not sbout integrating it into CodeIgniter 4's existing toolchain.
+
+Assignment 3 is unchanged - integrae a negotiated component into the ch-4 toolchain.
