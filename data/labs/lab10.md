@@ -1,7 +1,7 @@
 # Lab #10 - Laravel &amp; Semaphore CI/CD
 ACIT3890 - BCIT - Fall 2019
 
-Tutorial: Create a CI/CD pipeline for your existing code by using Azure DevOps Projects
+Tutorial: Create a CI/CD pipeline for Laravel  & Semaphore
 
 ## Lab Submission
 
@@ -19,5 +19,5 @@ Due: Sunday Nov 24 at 17:30 (lots of time, but don't procrastinate)
 # The Tutorial
 
 [Semaphore demo CI/CD pipeline using PHP Laravel ]
-(https://buddy.works/guides/first-steps-with-laravel-and-continuous-delivery)
+(https://github.com/semaphoreci-demos/semaphore-demo-php-laravel)
 

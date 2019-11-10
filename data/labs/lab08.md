@@ -1,7 +1,7 @@
 # Lab #8 - Jenkins &amp; Docker CI/CD
 ACIT3890 - BCIT - Fall 2019
 
-Tutorial: Create a CI/CD pipeline for your existing code by using Azure DevOps Projects
+Tutorial: Create a CI/CD pipeline for your existing code by using Docker & Jenkins
 
 ## Lab Submission
 
@@ -19,5 +19,5 @@ Due: Sunday Nov 24 at 17:30 (lots of time, but don't procrastinate)
 # The Tutorial
 
 [Hands-On: Building a CI/CD Pipeline Using Docker and Jenkins]
-(https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-github)
+(https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch)
 

@@ -68,3 +68,11 @@ Assignment 2 remains unchanged - investigate a tool in sufficient depth to provi
 or not sbout integrating it into CodeIgniter 4's existing toolchain.
 
 Assignment 3 is unchanged - integrae a negotiated component into the ch-4 toolchain.
+
+## Week 10 - Nov 5
+
+Assignment 2 presentations, woohoo!
+
+The booked meetings are shown in the slack channel.
+I will post zoom links for each once we get underway.
+I expect the presenting team members to be there - classmates are welcome to si in on tese t

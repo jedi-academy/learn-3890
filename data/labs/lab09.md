@@ -1,7 +1,7 @@
 # Lab #9 - Laravel &amp; Buddy CI/CD
 ACIT3890 - BCIT - Fall 2019
 
-Tutorial: Create a CI/CD pipeline for your existing code by using Azure DevOps Projects
+Tutorial: Create a CI/CD pipeline for your existing code by using Laravel & Buddy
 
 ## Lab Submission
 
