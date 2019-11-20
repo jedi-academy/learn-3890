@@ -28,3 +28,21 @@ I expect the presenting team members to be there - classmates are welcome to sit
 Presentation & pitch day, in class. 
 We may have a guest attending online :)
 
+## Weeks 10-12 ... CI tutorials
+
+The CI tutorials for labs 7, 8 & 10 have not worked out as planned.
+Trying to complete them ends up in a roadblock, typically with
+a cloud or active directory permissions problem that is not
+easily worked around :(
+
+Lab 9, the Laravel & Buddy CI tutorial, initially failed with a PHP
+fatal error because of a missing `vendor` folder. That is resolved
+with `composer update --no-scripts`, so the tutorial can be completed.
+So, lab 9 is a go!
+
+Don't worry about the other messed up tutorials (7, 8 & 10).
+
+## Weeks 12-14 - Nov 20-Dec 4
+
+We have three weeks to complete assignment 3, a toolchain contribution
+for a live open source project.
